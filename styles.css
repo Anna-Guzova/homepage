@@ -388,3 +388,68 @@ body {
     width: 100%;
   }
 }
+
+.timeline__content {
+  transition: 0.3s;
+}
+
+.timeline__content:hover {
+  transform: translateX(8px);
+
+  box-shadow: 0 5px 15px #ff9a001a;
+}
+.projects {
+  margin-top: 20px;
+}
+
+.project-card {
+  padding: 15px;
+
+  border: 1px solid var(--border-color);
+
+  border-radius: 14px;
+
+  margin-bottom: 15px;
+
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 8px 20px rgba(255, 154, 0, 0.12);
+}
+
+.project-card__header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.project-card__header h4 {
+  color: var(--primary-text-color);
+
+  font-size: 18px;
+}
+
+.project-card__header span {
+  font-size: 12px;
+
+  padding: 4px 10px;
+
+  border-radius: 15px;
+
+  border: 1px solid var(--border-color);
+
+  color: var(--durability-text-color);
+}
+
+.project-card p {
+  color: var(--secondary-text-color);
+
+  font-size: 14px;
+}
